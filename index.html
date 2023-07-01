@@ -23,7 +23,7 @@
     <main>
         <div class="pokedex">
             <div class="choose-pokemon">
-                <div class="card-pokemon open type-grass">
+                <div class="card-pokemon open type-grass" id="card-bulbasaur">
                     <div class="header-card">
                         <div class="details">
                             <h2 class="name">Bulbassauro</h2>
@@ -60,7 +60,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon type-fire">
+                <div class="card-pokemon type-fire" id="card-charmander">
                     <div class="header-card">
                         <div class="details">
                             <h2 class="name">Charmander</h2>
@@ -97,7 +97,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon type-water">
+                <div class="card-pokemon type-water" id="card-squirtle">
                     <div class="header-card">
                         <div class="details">
                             <h2 class="name">Squirtle</h2>
@@ -134,7 +134,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon type-eletric">
+                <div class="card-pokemon type-eletric" id="card-pikachu">
                     <div class="header-card">
                         <div class="details">
                             <h2 class="name">Pikachu</h2>
@@ -171,7 +171,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon type-ghost">
+                <div class="card-pokemon type-ghost" id="card-gengar">
                     <div class="header-card">
                         <div class="details">
                             <h2 class="name">Gengar</h2>
@@ -209,7 +209,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon type-flying">
+                <div class="card-pokemon type-flying" id="card-gyarados">
                     <div class="header-card">
                         <div class="details">
                             <h2 class="name">Gyarados</h2>
@@ -250,27 +250,27 @@
 
             <nav class="pokemon-list">
                 <ul>
-                    <li class="pokemon selected">
+                    <li class="pokemon selected" id="bulbasaur">
                         <img src="src/images/bulbasaur-head.png" alt="Imagem do Bulbassauro">
                         <span>Bulbassauro</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="charmander">
                         <img src="src/images/charmander-head.png" alt="Imagem do Charmander">
                         <span>Charmander</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="squirtle">
                         <img src="src/images/squirtle-head.png" alt="Imagem do Squirtle">
                         <span>Squirtle</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="pikachu">
                         <img src="src/images/pikachu-head.png" alt="Imagem do Pikachu">
                         <span>Pikachu</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="gengar">
                         <img src="src/images/gengar-head.png" alt="Imagem do Gengar">
                         <span>Gengar</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="gyarados">
                         <img src="src/images/gyarados-head.png" alt="Imagem do Gyarados">
                         <span>Gyarados</span>
                     </li>
@@ -279,6 +279,7 @@
         </div>
     </main>
 
+    <script src="js/index.js"></script>
 </body>
 
 </html>
