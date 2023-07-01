@@ -33,4 +33,5 @@
 
 .pokemon-list .pokemon.selected {
     background-color: #FA6668;
+    color: #000000;
 }
