@@ -21,9 +21,4 @@ pokemonList.forEach((pokemon) => {
   });
 });
 
-
- //evento de clique, para criar uma função
- //remove a classe " open " do que estiver aberto
- //seleciona através do id
- //mostra outro no lugar do que foi removido
- //adiciona a classe "open" à outro, quando click
+ 
