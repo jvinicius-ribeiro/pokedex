@@ -1,4 +1,5 @@
 <h1 align="center"> ⚡ Pokedéx </h1>
+<p align="center"><i>Gotta catch'em all!</i></p>
 <br>
 
 <p align="center">
